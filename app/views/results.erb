@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="/css/index.css" >
+</head>
+<body> 
+
+  <div class="results-page">
+    <h1>Your score: <%= @quiz.score %>/5!</h1>
+    <h3><%= @quiz.message %></h3>
+
+    
+     <p> <a href="/">Try again</a></p>
+
+  </div>
+
+</body>
+</html>
